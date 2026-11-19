@@ -12,9 +12,17 @@
 
 Automatically arranges files by type in a designated directory 🚀
 
+## Usage
+
+Run the script with your folder path:
+
 ```bash
 python main.py /path/to/folder
 ```
+
+Every file directly inside that folder is moved into a subfolder named after its extension, so `report.pdf` ends up in `pdf/` and `photo.jpg` in `jpg/`. Subfolders are created when they do not exist yet, and folders are left alone.
+
+Use `python main.py -h` to see the help.
 
 ## Tags
 
