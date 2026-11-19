@@ -11,8 +11,10 @@
 </p>
 
 Automatically arranges files by type in a designated directory 🚀
-Usage: Run the script with your folder path:
-python main.py
+
+```bash
+python main.py /path/to/folder
+```
 
 ## Tags
 
